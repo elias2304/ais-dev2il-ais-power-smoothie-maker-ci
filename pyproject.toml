@@ -19,4 +19,5 @@ dev = [
 [tool.uv-secure.ignore_packages]
 # Ignores all vulnerabilities for Flask version 0.5
 Flask = ["==0.5"]
+Pygments = ["==2.19.2"]
 
