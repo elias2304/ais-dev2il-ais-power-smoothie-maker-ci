@@ -16,3 +16,7 @@ dev = [
     "pytest>=8.3.4",
     "pytest-html>=4.1.1",
 ]
+[tool.uv-secure.ignore_packages]
+# Ignores all vulnerabilities for Flask version 0.5
+Flask = ["==0.5"]
+
